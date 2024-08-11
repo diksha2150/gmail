@@ -1,11 +1,9 @@
-import Layout from "./component/Layout/Layout";
-import Salespipline from "./pages/Salespipline";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <Layout />
-      <Salespipline />
+      <Home />
     </>
   );
 }

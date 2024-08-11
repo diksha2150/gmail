@@ -10,10 +10,7 @@ import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import { GiNetworkBars } from "react-icons/gi";
 const Sidebar = () => {
   return (
-    <div
-      className="fixed top-0 left-0 h-screen divide-y-2-[
-#343A40] w-11 flex flex-col justify-between items-center bg-[#1F1F1F] border border-slate-800 "
-    >
+    <div className="h-screen left-0 divide-y-2-[#343A40] w-11 flex flex-col justify-between items-center bg-[#1F1F1F] border border-slate-800 ">
       <div className="flex flex-col items-start justify-center pt-4 ">
         <div className="flex flex-col items-start  ">
           <img src={frame} alt="fram" className="w-5 h-5" />

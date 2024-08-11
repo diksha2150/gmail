@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const Header = () => {
   return (
     <>
-      <div className="flex bg-[#17191c] w-full h-14 items-center justify-between px-16 border border-slate-800 fixed ">
+      <div className="flex  bg-[#17191c] w-full h-14 items-center justify-between px-16 border border-slate-800 fixed top-0 ">
         <h1 className="text-white">Onebox</h1>
         <div className="flex justify-between gap-7">
           <button className="flex items-center gap-3  rounded-full shadow-white px-1 border border-slate-700">

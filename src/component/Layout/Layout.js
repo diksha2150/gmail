@@ -1,13 +1,17 @@
 import React from "react";
-import Header from "./Header";
 import Sidebar from "./Sidebar";
+import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
-      {children}
-      <Sidebar />
+      <div className="flex">
+        <Sidebar />
+        <div className="flex flex-col">
+          <Header />
+          {children}
+        </div>
+      </div>
     </>
   );
 };
