@@ -1,11 +1,11 @@
-import Header from "./component/Header";
-import Sidebar from "./component/Sidebar";
+import Layout from "./component/Layout/Layout";
+import Salespipline from "./pages/Salespipline";
 
 function App() {
   return (
     <>
-      <Header />
-      <Sidebar />
+      <Layout />
+      <Salespipline />
     </>
   );
 }
