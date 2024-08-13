@@ -7,7 +7,7 @@ import Detail from "./Detail";
 const Home = () => {
   return (
     <Layout>
-      <div className="flex">
+      <div className="flex ">
         <Reply />
         <Chat />
         <Detail />
